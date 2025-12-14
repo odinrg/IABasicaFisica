@@ -1,29 +1,13 @@
-# Descrición
+# Escena principal de Unity
 
-Emprega este arquivo para describir os cambios do teu proxecto.
+## Descrición xeral
 
-Utiliza o formato en markdown coas marcas básicas que aparcen no seguinte exemplo:
+Modificase a escena "Tank"
 
-# Título principal
-## Subtítulo
+## Modificacións
 
-Texto normal con **negriña** e *cursiva*.
+A escena xera unha cadea de persecución:
 
-- Lista 1
-- Lista 2
-
-[Ligazón](https://exemplo.com)
-
-
-```csharp
-using UnityEngine;
-
-public class OlaMundo : MonoBehaviour
-{
-    void Start()
-    {
-        Debug.Log("Ola, mundo desde C#!");
-    }
-}
-
-```
+- Engadese unha nova torre de tanque
+- Crease un script para que só dispare e non se mova
+- Engadese o script á nova torre e asociase os obxetos necesarios
